@@ -9,4 +9,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: greeting
-              run: echno"hello how are you"
+              run: echo "hello how are you"
