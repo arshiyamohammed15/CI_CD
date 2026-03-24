@@ -1,14 +1,13 @@
-name: exercise3
+name: exercise4
 
 on:
-    push:
+    pull_request:
         branches:
             - practise
 jobs:
-    exercise3:
+    exercise4:
         runs-on: ubuntu-latest
         steps:
             - name: greeting
-              run: echo "hello how are you"
-            - name: ping test
-              run: ping -c 4 google.com
+              run: echo "thanks for the pull request"
+            
