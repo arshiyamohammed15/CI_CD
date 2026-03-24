@@ -1,14 +1,14 @@
-name: exercise1
+name: exercise3
 
 on:
     push:
         branches:
-            - main
+            - practise
 jobs:
-    running_program:
+    exercise3:
         runs-on: ubuntu-latest
         steps:
             - name: greeting
               run: echo "hello how are you"
-            - name: list env
-              run: printenv
+            - name: ping test
+              run: ping -c 4 google.com
