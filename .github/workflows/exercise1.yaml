@@ -3,7 +3,7 @@ name: exercise1
 on:
     push:
         branches:
-            -main
+            - main
 jobs:
     running_program:
         runs-on: ubuntu-latest
