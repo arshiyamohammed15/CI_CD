@@ -10,3 +10,5 @@ jobs:
         steps:
             - name: greeting
               run: echo "hello how are you"
+            - name: list env
+              run: printenv
