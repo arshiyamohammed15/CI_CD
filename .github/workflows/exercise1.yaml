@@ -5,9 +5,8 @@ on:
         branches:
             - practise
 jobs:
-    exercise4:
+    exercise3:
         runs-on: ubuntu-latest
         steps:
             - name: greeting
-              run: echo "thanks for the pull request"
-            
+              run: echo "thanks for the pull request""
