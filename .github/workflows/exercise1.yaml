@@ -1,0 +1,12 @@
+name: exercise1
+
+on:
+    push:
+        branches:
+            -main
+jobs:
+    running_program:
+        runs-on: ubuntu-latest
+        steps:
+            - name: greeting
+              run: echno"hello how are you"
