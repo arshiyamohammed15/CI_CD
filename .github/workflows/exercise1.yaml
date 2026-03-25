@@ -2,11 +2,11 @@ name: exercise4
 
 on:
     schedule:
-        - cron: '25 6 * * *'
+     - cron: '32 6 * * *      
 
 jobs:
     exercise3:
         runs-on: ubuntu-latest
         steps:
             - name: greeting
-              run: echo "thanks for the pull request""
+              run: echo "thanks for the time zone"
