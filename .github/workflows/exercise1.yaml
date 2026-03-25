@@ -2,7 +2,7 @@ name: exercise4
 
 on:
     schedule:
-     - cron: '* * * * *'      
+     - cron: '5 * * * *'      
 
 jobs:
     exercise3:
