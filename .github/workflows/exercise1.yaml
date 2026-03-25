@@ -1,9 +1,10 @@
-name: exercise4
+
+name: exercise2
 
 on:
     pull_request:
         branches:
-            - practise
+            - dev
 jobs:
     exercise3:
         runs-on: ubuntu-latest
