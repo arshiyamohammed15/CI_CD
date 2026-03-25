@@ -1,9 +1,9 @@
 name: exercise4
 
 on:
-    pull_request:
-        branches:
-            - practise
+    schedule:
+        - cron: '25 6 * * *'
+
 jobs:
     exercise3:
         runs-on: ubuntu-latest
