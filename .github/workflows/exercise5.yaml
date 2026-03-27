@@ -1,0 +1,13 @@
+name: exercise4
+
+on:
+    push:
+        branches:
+            -practise
+
+jobs:
+    name: exercise5
+    runs-on: ubuntu-latest
+    steps:
+        - name: greeting
+          
